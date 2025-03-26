@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:saucedocurso/mi_widgets/mi_tarjeta.dart';
+import 'package:saucedocurso/mi_widgets/dialogo_acerca_de.dart';
 
 const Color darkBlue = Color(0xFF12202f);
 void main() => runApp(Mitarjeta());
@@ -19,7 +19,8 @@ class Mitarjeta extends StatelessWidget {
           title: const Text("flutter saucedo"),
           centerTitle: true,
         ),
-        body: Latarjeta(),
+        //body: Latarjeta(),
+        body: const Dialogoacercade(),
       ),
     );
   }
